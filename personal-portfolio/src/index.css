@@ -17,21 +17,5 @@ ul{
   list-style-type: none;
 }
 
-.button{
-  padding: 12px 32px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  background: #2E8B57;
-  color: white;
-  border: 1px solid #fff;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.button:hover {
-  background: transparent;
-  color: #fff;
-  transition: 0.3s;
-}
 
 

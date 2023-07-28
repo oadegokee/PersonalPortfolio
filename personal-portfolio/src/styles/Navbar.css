@@ -37,6 +37,7 @@
 
     .nav-items.active { 
         top: 0;
+        background-color: #fafafa;
     }
 
     .nav-items li{
