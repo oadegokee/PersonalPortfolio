@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Home.css";
-import LuwaImg from "../images/luwa-adegoke.png";
+import "../index.css";
+import LuwaImg from "../assets/luwa-adegoke.png";
+import LuwaResume from "../assets/OlaoluwaAdegokeResume.pdf";
 import { contactLinks } from "../constants";
 
 const Home = () => {
@@ -25,11 +27,11 @@ const Home = () => {
 
                 <div className="resume-wrapper">
                     <div className="resume">
-                        <a>Resume</a>
+                        <a href={LuwaResume} download>Download Resume</a>
                     </div>
                 </div>
             </div>
-            
+
             <div className="luwa-photo">
                     <img src={LuwaImg} alt=" of Olaoluwa Adegoke"></img>
                 </div>

@@ -11,20 +11,8 @@
     padding-right: 1rem;
 }
 
-.welcome{
-    
-}
-
-.welcome > h1 {
-    font-size: 2.25rem;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-}
-
-.welcome > p {
-    margin-top: 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
+.welcome {
+    margin-right: 5rem;
 }
 
 .contact-links {
@@ -34,7 +22,7 @@
 .contact-links a {
    margin-right: 1rem;
    cursor: pointer;
-   margin-top: 0.4rem;
+   margin-top: 1rem;
    
 }
 
@@ -43,15 +31,14 @@
  }
 
  .resume-wrapper {
-    margin-top: 1.25rem;
+    margin-top: 1.5rem;
     display: flex;
-    justify-content: center;
  }
 
  .resume {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
     cursor: pointer;
-    width: 10%;
+    width: 40%;
  }
 
  .resume a {
@@ -69,6 +56,7 @@
     /* border-radius: 0.375rem; */
     color:  #2E8B57;
     background: transparent;
+
    
  }
 
@@ -77,11 +65,25 @@
     color: white;
     transition: 0.3s;
   }
+
+  /*
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(80px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  */
   
 .luwa-photo > img {
-    width: 500px;
-    height: 500px;
     border-radius: 50%;
+    /* animation: fade-in 1s ease-in-out; */
+    display: none;
+    margin-bottom: 4rem;
 }
 
 @media (min-width: 640px) {
@@ -97,15 +99,22 @@
     .welcome > h1 {
         font-size: 2.5rem;
     }
+
+    .welcome h2 {
+        font-size: 2rem;
+    }
     
     .welcome > p {
         margin-top: 1.25rem;
         font-size: 1.125rem;
     }
 
+    
+
     .resume-wrapper {
         margin-top: 2rem;
         margin-bottom: 2rem;
+        justify-content: center;
      }
 
      .resume {
@@ -118,9 +127,6 @@
 
     .luwa-photo > img {
         display: block;
-        opacity: 1;
-    transform: translateY(0);
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         /* width: 350px;
         height: 350px; */
     }
@@ -133,21 +139,31 @@
     }
 
     .welcome > h1 {
-        font-size: 2.5rem;
+        font-size: 5rem;
+    }
+
+    .welcome h2 {
+        margin-top: 0.5rem;
+        font-size: 3rem;
     }
 
     .welcome > p {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+        line-height: 1.5;
     }
 
     .contact-links {
         justify-content: center;
     }
 
+    .resume-wrapper {
+        justify-content: center;
+    }
+
     .resume a {
         padding-top: 1rem;
         padding-bottom: 1rem;
-        font-size: 1.125rem;
+        font-size: 1.5rem;
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }
@@ -171,10 +187,7 @@
         justify-content: flex-start;
     }
 
-    .luwa-photo > img {
-        width: 500px;
-        height: 500px;
-    }
+    
 
   
   }
