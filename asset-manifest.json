@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.8a98b83a.css",
-    "main.js": "/PersonalPortfolio/static/js/main.988db013.js",
+    "main.css": "/PersonalPortfolio/static/css/main.f67c3984.css",
+    "main.js": "/PersonalPortfolio/static/js/main.ea84da7e.js",
+    "static/media/luwa-adegoke.png": "/PersonalPortfolio/static/media/luwa-adegoke.75fb42a547fbb07e6bff.png",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.8a98b83a.css.map": "/PersonalPortfolio/static/css/main.8a98b83a.css.map",
-    "main.988db013.js.map": "/PersonalPortfolio/static/js/main.988db013.js.map"
+    "main.f67c3984.css.map": "/PersonalPortfolio/static/css/main.f67c3984.css.map",
+    "main.ea84da7e.js.map": "/PersonalPortfolio/static/js/main.ea84da7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a98b83a.css",
-    "static/js/main.988db013.js"
+    "static/css/main.f67c3984.css",
+    "static/js/main.ea84da7e.js"
   ]
 }
