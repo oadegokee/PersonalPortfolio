@@ -9,8 +9,12 @@
     z-index: 10;
 }
 
+
 .nav h1 {
     cursor: pointer;
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
 }
 
 .nav-bg {
@@ -40,7 +44,7 @@
 }
 
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 850px) {
     .nav-items{
         flex-direction: column;
         justify-content: center;
@@ -61,11 +65,25 @@
 
     .nav-items li{
         padding: 1rem 0;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .collapse-show-menu{
         display: initial;
     }
 
+    .nav-h1 {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .nav-items li{
+        font-size: 1.7rem;
+    }
+    .nav-h1 {
+        font-size: 1.4rem;
+    }
 }

@@ -34,7 +34,7 @@ const Home = () => {
 
             <div className="luwa-photo">
                     <img src={LuwaImg} alt=" of Olaoluwa Adegoke"></img>
-                </div>
+            </div>
         </div>
     )
 }
