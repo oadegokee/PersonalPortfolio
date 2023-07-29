@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.ae3d2c03.css",
+    "main.css": "/PersonalPortfolio/static/css/main.e3aa223a.css",
     "main.js": "/PersonalPortfolio/static/js/main.f5763f24.js",
     "static/media/OlaoluwaAdegokeResume.pdf": "/PersonalPortfolio/static/media/OlaoluwaAdegokeResume.de83596510f7fad21bc7.pdf",
     "static/media/luwa-adegoke.png": "/PersonalPortfolio/static/media/luwa-adegoke.58ccf59e17ae59e1b93b.png",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.ae3d2c03.css.map": "/PersonalPortfolio/static/css/main.ae3d2c03.css.map",
+    "main.e3aa223a.css.map": "/PersonalPortfolio/static/css/main.e3aa223a.css.map",
     "main.f5763f24.js.map": "/PersonalPortfolio/static/js/main.f5763f24.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae3d2c03.css",
+    "static/css/main.e3aa223a.css",
     "static/js/main.f5763f24.js"
   ]
 }
