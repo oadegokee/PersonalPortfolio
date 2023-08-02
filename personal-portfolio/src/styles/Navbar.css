@@ -19,14 +19,13 @@
 
 .nav-bg {
     /* om scroll change the background color */
-    background-color: #2E8B57;
-    transition: 0.5s;
+    /* background-color: #2E8B57;
+     */
+    border-bottom: 2px solid #e2e2e2;
+    background-color: #fafafa;
 } 
 
-.nav-h1-bg, .nav-li-bg {
-    /* om scroll change the background color */
-   color: white;
-} 
+
 
 .nav-items{
     display: flex;
@@ -37,6 +36,10 @@
     font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
+}
+
+.nav-items li:hover {
+    text-decoration: underline black 2px solid;
 }
 
 .collapse-show-menu{
