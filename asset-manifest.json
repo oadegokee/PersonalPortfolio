@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalPortfolio/static/css/main.7e4817aa.css",
-    "main.js": "/PersonalPortfolio/static/js/main.65ec0e43.js",
+    "main.js": "/PersonalPortfolio/static/js/main.39ed34c3.js",
     "static/media/recipe-finder.jpg": "/PersonalPortfolio/static/media/recipe-finder.244af2b9f3499e1adcce.jpg",
     "static/media/book-search.png": "/PersonalPortfolio/static/media/book-search.42b3852d70d3d1dc2b0f.png",
     "static/media/luwa-adegoke.png": "/PersonalPortfolio/static/media/luwa-adegoke.58ccf59e17ae59e1b93b.png",
@@ -9,10 +9,10 @@
     "static/media/OlaoluwaAdegokeResume.pdf": "/PersonalPortfolio/static/media/OlaoluwaAdegokeResume.337484abc18bb1df3ce5.pdf",
     "index.html": "/PersonalPortfolio/index.html",
     "main.7e4817aa.css.map": "/PersonalPortfolio/static/css/main.7e4817aa.css.map",
-    "main.65ec0e43.js.map": "/PersonalPortfolio/static/js/main.65ec0e43.js.map"
+    "main.39ed34c3.js.map": "/PersonalPortfolio/static/js/main.39ed34c3.js.map"
   },
   "entrypoints": [
     "static/css/main.7e4817aa.css",
-    "static/js/main.65ec0e43.js"
+    "static/js/main.39ed34c3.js"
   ]
 }
