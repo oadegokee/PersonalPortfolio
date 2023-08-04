@@ -37,7 +37,7 @@ const Navbar = () => {
           <FaTimes size={20} /> // show the x icon if clicked
         ) : (
           <FaBars size={20} /> // else show the hamburger icon
-        )};
+        )}
       </div>
     </nav>
   );

@@ -20,12 +20,12 @@ const About = () => {
                             I am eager to apply my knowledge and skills to real world problems.
                         </p>
                         <p>
-                            Outside of work I like working on side projects and exploring new skils, i am always
+                            Outside of work I like working on side projects and exploring new skils, I am always
                             excited to learn and grow. In my downtime, I find relaxation in curating playlists
                             that provide a sense of escape.
                         </p>
                         <p>
-                            Looking ahead, I am passionate about exploring job opportunities where i can continue
+                            Looking ahead, I am passionate about exploring job opportunities where I can continue
                             to learn and grow as a software engineer. I am open to roles that provide a challenging
                             environment, allowing me to expand my skills. Feel free to contact me below.
                         </p>
