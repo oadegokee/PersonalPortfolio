@@ -18,14 +18,9 @@
 }
 
 .nav-bg {
-    /* om scroll change the background color */
-    /* background-color: #2E8B57;
-     */
     border-bottom: 2px solid #e2e2e2;
     background-color: #fafafa;
 } 
-
-
 
 .nav-items{
     display: flex;

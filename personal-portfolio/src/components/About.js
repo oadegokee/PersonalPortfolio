@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import "../styles/About.css";
 
 const About = () => {
+    const [click, setClick] = useState(false);
+    const handleNavItemClick = () => {
+        setClick(false);
+        
+    };
     return (
         <div id='about'>
             <div className='about-info'>
@@ -25,7 +31,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className='contact'>
-                        <a href='#contacts'>Contact</a>
+                        <Link to="home" spy={true} smooth={true} onClick={handleNavItemClick}>Contact</Link>
                     </div>
                     
                 </div>
@@ -44,7 +50,6 @@ const About = () => {
                         <div>PHP</div>
                         <div>Visual Basic</div>
                         <div>Git</div>
-                        <div>Github</div>
                     </div>
                 </div>
             </div>

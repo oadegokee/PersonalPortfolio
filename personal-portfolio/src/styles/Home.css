@@ -1,14 +1,15 @@
 .top{
+    min-height: 100vh;
+}
+
+.welcome-details {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90rem; 
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 15rem;
 }
 
 .welcome {
@@ -29,7 +30,6 @@
     line-height: 1.5;
 }
 
-
 .contact-links {
     display: flex;
     justify-content: flex-start;
@@ -39,6 +39,8 @@
    margin-right: 1rem;
    cursor: pointer;
    margin-top: 1rem;
+   width: 66px;
+   height: 66px;
    
 }
 
@@ -71,11 +73,8 @@
     border-style: solid;
     border-color:  #2E8B57;
     font-size: 1.5rem;
-    /* border-radius: 0.375rem; */
     color:  #2E8B57;
     background: transparent;
-
-   
  }
 
   .resume a:hover {
@@ -83,33 +82,13 @@
     color: white;
     transition: 0.3s;
   }
-
-  /*
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateY(80px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  */
   
 .luwa-photo > img {
     border-radius: 50%;
-    /* animation: fade-in 1s ease-in-out; */
-    /* display: none; */
     margin-bottom: 4rem;
 }
 
-
-
-
 @media (max-width: 1350px) {
-  
-    
     .welcome > h1 {
         font-size: 4rem;
     }
@@ -121,7 +100,6 @@
     .welcome > p {
         font-size: 1.3rem;
     }
-
     
      .resume {
         width: 50%;
@@ -131,11 +109,8 @@
         font-size: 1.2rem;
      }
     
-    
     .luwa-photo > img {
         border-radius: 50%;
-        /* animation: fade-in 1s ease-in-out; */
-        /* display: none; */
         margin-bottom: 4rem;
         width: 20rem;
     }
@@ -143,40 +118,9 @@
 }
 
 @media (max-width: 910px) {
-  
-    
-    .welcome > h1 {
-        font-size: 3rem;
-    }
-    
-    .welcome h2 {
-        font-size: 1.6rem;
-    }
-    
-    .welcome > p {
-        font-size: 1.3rem;
-    }
-
-    
-     .resume {
-        width: 60%;
-     }
-    
-     .resume a {
-        font-size: 1rem;
-     }
-    
-    
-    .luwa-photo > img {
-        width: 19rem;
-    }
-    
-}
-
-@media (max-width: 700px) {
-  
-    .top{
+    .top .welcome-details{
         flex-direction: column-reverse;
+        padding-top: 8rem;
     }
 
     .welcome {
@@ -201,16 +145,15 @@
     .resume-wrapper{
         justify-content: center;
     }
-     .resume {
-        width: 60%;
-        
-     }
+
+    .resume {
+    width: 60%;
     
-     .resume a {
-        font-size: 1rem;
-     }
-    
-    
+    }
+    .resume a {
+    font-size: 1rem;
+    }
+
     .luwa-photo > img {
         margin-bottom: 0;
         width: 17rem;
@@ -223,135 +166,3 @@
         width: 12rem;
     }
 }
-
-@media (max-height: 851px) {
-    .top {
-        height: 110vh;
-    }
-}
-
-@media (max-height: 740px) {
-    .top {
-        height: 130vh;
-    }
-}
-
-@media (max-height: 670px) {
-    .top {
-        height: 145vh;
-    }
-}
-
-@media (max-height: 653px) {
-    .top {
-        height: 150vh;
-    }
-}
-
-
-/*
-@media (min-width: 640px) {
-    .top {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-    }
-
-    .welcome{
-        text-align: center;
-    }
-
-    .welcome > h1 {
-        font-size: 2.5rem;
-    }
-
-    .welcome h2 {
-        font-size: 2rem;
-    }
-    
-    .welcome > p {
-        margin-top: 1.25rem;
-        font-size: 1.125rem;
-    }
-
-    
-
-    .resume-wrapper {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        justify-content: center;
-     }
-
-     .resume {
-        margin-top: 0;
-     }
-    
-     .contact-links {
-        justify-content: center;
-    }
-
-    .luwa-photo > img {
-        display: block;
-        
-    }
-  }
-
-  @media (min-width: 768px) {
-    .top{
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    .welcome > h1 {
-        font-size: 5rem;
-    }
-
-    .welcome h2 {
-        margin-top: 0.5rem;
-        font-size: 3rem;
-    }
-
-    .welcome > p {
-        font-size: 1.5rem;
-        line-height: 1.5;
-    }
-
-    .contact-links {
-        justify-content: center;
-    }
-
-    .resume-wrapper {
-        justify-content: center;
-    }
-
-    .resume a {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        font-size: 1.5rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .top {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-
-    .welcome {
-        text-align: left;
-    }
-
-    .resume-wrapper {
-        justify-content: flex-start;
-     }
-
-     .contact-links {
-        justify-content: flex-start;
-    }
-
-    
-
-  
-  }
-*/

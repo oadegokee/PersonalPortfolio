@@ -22,8 +22,6 @@ const Navbar = () => {
     setClick(false);
   };
 
-
-
   return (
     <nav className={color ? "nav nav-bg" : "nav"}>
       <h1><Link className={color ? "nav-h1 nav-h1-bg" : "nav-h1"} to="home" spy={true} smooth={true} onClick={handleNavItemClick}>Olaoluwa Adegoke</Link></h1>
@@ -32,7 +30,6 @@ const Navbar = () => {
         <li><Link className={color ? "nav-li nav-li-bg" : "nav-li"} to="home" spy={true} smooth={true} onClick={handleNavItemClick}>Home</Link></li>
         <li><Link className={color ? "nav-li nav-li-bg" : "nav-li"} to="about" spy={true} smooth={true} onClick={handleNavItemClick}>About</Link></li>
         <li><Link className={color ? "nav-li nav-li-bg" : "nav-li"} to="projects" spy={true} smooth={true} onClick={handleNavItemClick}>Projects</Link></li>
-        <li><Link className={color ? "nav-li nav-li-bg" : "nav-li"} to="contacts" spy={true} smooth={true} onClick={handleNavItemClick}>Contacts</Link></li>
       </ul>
 
       <div className="collapse-show-menu" onClick={handleClick}>
