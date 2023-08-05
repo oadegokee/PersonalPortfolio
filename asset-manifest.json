@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.7e4817aa.css",
-    "main.js": "/PersonalPortfolio/static/js/main.39ed34c3.js",
+    "main.css": "/PersonalPortfolio/static/css/main.f9a9f5e3.css",
+    "main.js": "/PersonalPortfolio/static/js/main.2c3cc30d.js",
     "static/media/recipe-finder.jpg": "/PersonalPortfolio/static/media/recipe-finder.244af2b9f3499e1adcce.jpg",
     "static/media/book-search.png": "/PersonalPortfolio/static/media/book-search.42b3852d70d3d1dc2b0f.png",
     "static/media/luwa-adegoke.png": "/PersonalPortfolio/static/media/luwa-adegoke.58ccf59e17ae59e1b93b.png",
     "static/media/weather.png": "/PersonalPortfolio/static/media/weather.e6adb23ad824a5d6c5dd.png",
     "static/media/OlaoluwaAdegokeResume.pdf": "/PersonalPortfolio/static/media/OlaoluwaAdegokeResume.337484abc18bb1df3ce5.pdf",
+    "static/media/Sun.svg": "/PersonalPortfolio/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/PersonalPortfolio/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.7e4817aa.css.map": "/PersonalPortfolio/static/css/main.7e4817aa.css.map",
-    "main.39ed34c3.js.map": "/PersonalPortfolio/static/js/main.39ed34c3.js.map"
+    "main.f9a9f5e3.css.map": "/PersonalPortfolio/static/css/main.f9a9f5e3.css.map",
+    "main.2c3cc30d.js.map": "/PersonalPortfolio/static/js/main.2c3cc30d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e4817aa.css",
-    "static/js/main.39ed34c3.js"
+    "static/css/main.f9a9f5e3.css",
+    "static/js/main.2c3cc30d.js"
   ]
 }
