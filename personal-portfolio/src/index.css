@@ -1,3 +1,22 @@
+:root {
+  --body_background: #fafafa;
+  --body_color: black;
+  --skills-color: #2E8B57;
+  --skills-text-color: white;
+  --nav_border_color: #e2e2e2;
+
+}
+
+[data-theme="dark"] {
+  --body_background: #080808;
+  --body_color: #fafafa;
+  --skills-color: #2E8B57;
+  --skills-text-color: white;
+  --nav_border_color: #505050;
+}
+
+
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -5,11 +24,11 @@
 }
 
 body{
-  background-color: #fafafa;
+  background-color: var(--body_background);
 }
 
-h1, h4, p, a {
-  color: black;
+h1, h2, p, a {
+  color: var(--body_color);
   text-decoration: none;
 }
 

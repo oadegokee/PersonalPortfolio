@@ -9,6 +9,14 @@
     z-index: 10;
 }
 
+.h-icon {
+    color: var(--body_color);
+}
+
+.x-icon {
+    color: var(--body_color);
+}
+
 
 .nav h1 {
     cursor: pointer;
@@ -18,8 +26,8 @@
 }
 
 .nav-bg {
-    border-bottom: 2px solid #e2e2e2;
-    background-color: #fafafa;
+    border-bottom: 2px solid var(--nav_border_color);
+    background-color: var(--body_background);
 } 
 
 .nav-items{
@@ -34,7 +42,7 @@
 }
 
 .nav-items li:hover {
-    text-decoration: underline black 2px solid;
+    text-decoration: underline  var(--body_color) 2px solid;
 }
 
 .collapse-show-menu{
@@ -58,7 +66,12 @@
 
     .nav-items.active { 
         top: 0;
-        background-color: #fafafa;
+        background-color:  var(--body_background);
+    }
+
+    .nav-items.active li{ 
+        top: 0;
+        color:  var(--body_color);
     }
 
     .nav-items li{

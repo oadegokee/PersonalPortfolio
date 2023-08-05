@@ -1,5 +1,6 @@
 .top{
     min-height: 100vh;
+    background-color: var(--body_background);
 }
 
 .welcome-details {
@@ -71,15 +72,15 @@
     padding-bottom: 1rem;
     border-width: 1px;
     border-style: solid;
-    border-color:  #2E8B57;
+    border-color:  var(--skills-color);;
     font-size: 1.5rem;
-    color:  #2E8B57;
+    color:  var(--skills-color);;
     background: transparent;
  }
 
   .resume a:hover {
-    background-color: #2E8B57;
-    color: white;
+    background-color: var(--skills-color);;
+    color: var(--skills-text-color);;
     transition: 0.3s;
   }
   
