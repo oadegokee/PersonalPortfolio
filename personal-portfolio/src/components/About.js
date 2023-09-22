@@ -45,7 +45,7 @@ const About = () => {
                         <div>React</div>
                         <div>Java</div>
                         <div>C#</div>
-                        <div>C++</div>
+                        <div>C</div>
                         <div>Swift</div>
                         <div>SQL</div>
                         <div>PHP</div>
