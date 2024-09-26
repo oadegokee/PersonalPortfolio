@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import "../index.css";
-import LuwaImg from "../assets/luwa-adegoke.png";
+import LuwaImg from "../assets/luwa-adegoke.jpg";
 import LuwaResume from "../assets/OlaoluwaAdegokeResume.pdf";
 import { contactLinks } from "../constants";
 

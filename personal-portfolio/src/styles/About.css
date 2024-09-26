@@ -52,20 +52,29 @@
 
   .about-skills h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.6rem;
     line-height: 1.5;
   }
 
-  .skills {
+  .about-skills h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+    text-decoration: underline;
+    color:  var(--body_color);
+  }
+
+  
+  .skillsGroup {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .skills div {
+  .skillsGroup div {
     letter-spacing: 1px;
-    padding: 1rem 1rem;
-    margin-right: 1em;
-    margin-bottom: 1.5rem;
+    padding: 0.7rem 1rem;
+    margin-right: 0.7em;
+    margin-bottom: 0.7rem;
     background: var(--skills-color);;
     color: var(--skills-text-color);;
     border-radius: 2px;

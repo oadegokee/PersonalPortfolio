@@ -38,19 +38,47 @@ const About = () => {
                 <div className='about-skills'>
                     <h2 >Skills</h2>
                     <div className='skills'>
-                        <div>HTML</div>
-                        <div>CSS</div>
-                        <div>JavaScript</div>
-                        <div>jQuery</div>
-                        <div>React</div>
-                        <div>Java</div>
-                        <div>C#</div>
-                        <div>C</div>
-                        <div>Swift</div>
-                        <div>SQL</div>
-                        <div>PHP</div>
-                        <div>Visual Basic</div>
-                        <div>Git</div>
+                        <h3>Programming Languages</h3>
+                        <div className='skillsGroup'>
+                            <div>Java</div>
+                            <div>JavaScript</div>
+                            <div>Python</div>
+                            <div>SQL</div>
+                            <div>C#</div>
+                            <div>C</div>
+                            <div>Swift</div>
+                            <div>PHP</div>
+                            <div>Visual Basic</div>
+                        </div>
+
+                        <h3>Web Technologies & Databases</h3>
+                        <div className='skillsGroup'>
+                            <div>HTML</div>
+                            <div>CSS</div>
+                            <div>MySQL</div>
+                        </div>
+                        
+                        <h3>Frameworks & Libraries</h3>
+                        <div className='skillsGroup'>
+                            <div>React</div>
+                            <div>Node.js</div>
+                            <div>jQuery</div>
+                            <div>ASP.NET MVC</div>
+                        </div>
+                        
+                        <h3>Developer Tools</h3>
+                        <div className='skillsGroup'>
+                            <div>Git</div>
+                            <div>GitHub</div>
+                            <div>Azure DevOps</div>
+                            <div>VS Code</div>
+                            <div>Eclipse</div>
+                            <div>Visual Studio</div>
+                            <div>SOAP UI</div>
+                            <div>SQL Server Management Studio</div>
+                        </div>
+                        
+                      
                     </div>
                 </div>
             </div>
