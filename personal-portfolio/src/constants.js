@@ -24,7 +24,7 @@ export const projects = [
         name: "Android Recipe App", 
         description: "I developed a recipe app using Java that lets users explore and search for various recipes. The app uses MealDB's API, granting users access to various recipes and accompanying YouTube videos, if available. I also implemented an SQLite Database, allowing users to add and save their own recipes directly within the application.",
         languages: "Java, MealDB API, GitHub, Android Studio", 
-        projectUrl: "https://oadegokee.github.io/2021_BookNet/"
+        projectUrl: "https://github.com/oadegokee/Recipe_Finder"
     },
 
     {
