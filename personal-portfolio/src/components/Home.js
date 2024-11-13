@@ -13,9 +13,7 @@ const Home = () => {
                     <h1>Hi, I am Luwa</h1>
                     <h2>Welcome to my portfolio website!</h2>
                     <p>
-                        I am a software engineering student, constantly seeking new
-                        challenges and opportunities to refine my skills and make a positive
-                        impact in the tech world.
+                        I'm a software engineering student with a solid foundation in web and software development, always looking for ways to expand my skills and take on projects that make a real impact. Through internships and hands-on projects, I've gained practical experience across different areas in tech. I'm excited to keep growing and I'm open to exploring software engineering opportunities that push me to learn even more.
                         Scroll to learn more about me and feel free to explore my projects.
                     </p>
                     <div className="contact-links">
