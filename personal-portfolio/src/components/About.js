@@ -14,20 +14,19 @@ const About = () => {
                 <div className='about-me'>
                     <h1>ABOUT ME</h1>
                     <div className='about-me-details'>
-                        <p>My full name is Olaoluwa Adegoke and I am originally from Lagos, Nigeria.
-                            I am currently pursuing my Bachelors degree in Software engineering with a minor 
-                            in Information Systems. I have an interest in web and software development because it allows me to bring my creative ideas to life.
-                            I am eager to apply my knowledge and skills to real world problems.
+                        <p>
+                            Hello! My name is Olaoluwa Adegoke, and I'm originally from Lagos, Nigeria. 
+                            I'm currently pursuing a Bachelor's degree in Software Engineering with a minor in Information Systems. 
+                            My passion for web and software development lies in the ability to bring creative ideas to life and tackle complex challenges.
                         </p>
                         <p>
-                            Outside of work I like working on side projects and exploring new skils, I am always
-                            excited to learn and grow. In my downtime, I find relaxation in curating playlists
-                            that provide a sense of escape.
+                            Recently, I completed an internship as an Applications Developer, where I worked on transitioning an application from older technology to a modern web framework, improving both security and user experience. 
+                            This experience deepened my skills in ASP.NET MVC, UI design, and problem-solving, preparing me to make an impact in dynamic tech environments.
+                            Beyond work, I enjoy building side projects to explore new skills and languages. Music is another big part of my life. I love curating playlists that offer a sense of escape and inspiration.
+
                         </p>
                         <p>
-                            Looking ahead, I am passionate about exploring job opportunities where I can continue
-                            to learn and grow as a software engineer. I am open to roles that provide a challenging
-                            environment, allowing me to expand my skills. Feel free to contact me below.
+                            Looking forward, I'm excited to find roles that challenge me, encourage growth, and allow me to contribute meaningfully as a software engineer. Feel free to reach out below!
                         </p>
                     </div>
                     <div className='contact'>
