@@ -10,7 +10,7 @@ const Home = () => {
         <div className="top">
             <div className="welcome-details">
                 <div className="welcome">
-                    <h1>Hi, I am Luwa</h1>
+                    <h1>Hi, I am Olaoluwa</h1>
                     <h2>Welcome to my portfolio website!</h2>
                     <p>
                         I'm a software engineering student with a solid foundation in web and software development, always looking for ways to expand my skills and take on projects that make a real impact. Through internships and hands-on projects, I've gained practical experience across different areas in tech. I'm excited to keep growing and I'm open to exploring software engineering opportunities that push me to learn even more.

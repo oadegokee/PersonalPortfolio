@@ -1,6 +1,6 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
-import weatherImg from "./assets/weather.png";
+// import weatherImg from "./assets/weather.png";
 import bookSearchImg from "./assets/book-search.png";
 import recipeFinderImg from "./assets/recipe-finder.jpg";
 
@@ -11,13 +11,13 @@ export const contactLinks = [
 ]
 
 export const projects = [
-    {
-        projectImage: weatherImg, 
-        name: "Weather Website", 
-        description: "I developed a weather website that lets users check the current weather and forecast of their location. Users can conveniently search for a specific location using either the city name or zip code. Additionally, they have the flexibility to switch between Fahrenheit and Celsius. ",
-        languages: "HTML, CSS, JavaScript, Open Weather Maps API, GitHub", 
-        projectUrl: "https://oadegokee.github.io/weathercast/"
-    },
+    // {
+    //     projectImage: weatherImg, 
+    //     name: "Weather Website", 
+    //     description: "I developed a weather website that lets users check the current weather and forecast of their location. Users can conveniently search for a specific location using either the city name or zip code. Additionally, they have the flexibility to switch between Fahrenheit and Celsius. ",
+    //     languages: "HTML, CSS, JavaScript, Open Weather Maps API, GitHub", 
+    //     projectUrl: "https://oadegokee.github.io/weathercast/"
+    // },
 
     {
         projectImage: recipeFinderImg, 
