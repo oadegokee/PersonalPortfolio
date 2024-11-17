@@ -15,13 +15,14 @@ const About = () => {
                     <h1>ABOUT ME</h1>
                     <div className='about-me-details'>
                         <p>
-                            Hello! My name is Olaoluwa Adegoke, and I'm originally from Lagos, Nigeria. 
+                            Hello! My name is Olaoluwa Adegoke. 
                             I'm currently pursuing a Bachelor's degree in Software Engineering with a minor in Information Systems. 
-                            My passion for web and software development lies in the ability to bring creative ideas to life and tackle complex challenges.
+                            I am passionate about software engineering because it allows me to turn creative ideas into functional applications.
                         </p>
                         <p>
                             Recently, I completed an internship as an Applications Developer, where I worked on transitioning an application from older technology to a modern web framework, improving both security and user experience. 
-                            This experience deepened my skills in ASP.NET MVC, UI design, and problem-solving, preparing me to make an impact in dynamic tech environments.
+                            During this time, I worked extensively with SQL databases and utilized version control tools like Git to manage code changes and collaborate with the team.
+                            This experience deepened my skills in ASP.NET MVC, SQL database management, UI/UX design, front-end technologies like HTML, CSS and JavaScript, as well as using RESTful APIs to integrate external data sources.
                             Beyond work, I enjoy building side projects to explore new skills and languages. Music is another big part of my life. I love curating playlists that offer a sense of escape and inspiration.
 
                         </p>
