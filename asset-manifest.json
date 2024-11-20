@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.ea26e6ab.css",
+    "main.css": "/PersonalPortfolio/static/css/main.2b9f124f.css",
     "main.js": "/PersonalPortfolio/static/js/main.e426f26e.js",
     "static/media/recipe-finder.jpg": "/PersonalPortfolio/static/media/recipe-finder.244af2b9f3499e1adcce.jpg",
     "static/media/book-search.png": "/PersonalPortfolio/static/media/book-search.42b3852d70d3d1dc2b0f.png",
@@ -9,11 +9,11 @@
     "static/media/Sun.svg": "/PersonalPortfolio/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
     "static/media/Moon.svg": "/PersonalPortfolio/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.ea26e6ab.css.map": "/PersonalPortfolio/static/css/main.ea26e6ab.css.map",
+    "main.2b9f124f.css.map": "/PersonalPortfolio/static/css/main.2b9f124f.css.map",
     "main.e426f26e.js.map": "/PersonalPortfolio/static/js/main.e426f26e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea26e6ab.css",
+    "static/css/main.2b9f124f.css",
     "static/js/main.e426f26e.js"
   ]
 }
