@@ -18,11 +18,22 @@ const Projects = () => {
                           
                             <div className='back'>
                                 <h2 className='project-name'>{project.name}</h2>
-                                <p className='project-tech'>Technologies used: {project.languages}</p>
+                                <p className='project-tech'><b>Technologies used:</b> {project.languages}</p>
                                 <p className='project-desc'>{project.description}</p>
+
+                                <div className='project-links'>
+
+                                    {project.demoUrl && (
+                                        <div className='demo-link-wrapper'>
+                                            <a className='demo-link' href={project.demoUrl} target='blank'>View Demo</a>
+                                        </div>
+                                    )}
                                 
-                                <div className='project-link-wrapper'>
-                                    <a className='project-link' href={project.projectUrl} target='blank'>Click to view project</a>
+                                    <div className='project-link-wrapper'>
+                                        <a className='project-link' href={project.projectUrl} target='blank'>View Project</a>
+                                    </div>
+
+                                    
                                 </div>
                             </div>
                             

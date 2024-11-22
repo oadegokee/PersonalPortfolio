@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 8rem;
+    margin-top: -80px;
 }
 
 .about-me-details p {
@@ -87,7 +88,7 @@
 
     .about-info {
         grid-template-columns: 1fr;
-        grid-gap: 6rem;
+        grid-gap: 2rem;
     }
 
 }
