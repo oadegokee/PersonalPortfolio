@@ -7,7 +7,8 @@ import recipeFinderImg from "./assets/recipe-finder.jpg";
 export const contactLinks = [
     {name: 'GitHub', link: "https://github.com/oadegokee", icon: () => <SocialIcon url="https://github.com/oadegokee" />},
     {name: 'LinkedIn', link: "www.linkedin.com/in/olaoluwaadegoke", icon: () => <SocialIcon url="https://www.linkedin.com/in/olaoluwaadegoke" />},
-    {name: 'Email', link: "mailto:laoluadegoke@icloud.com", icon: () => <SocialIcon network="email" />}
+    {name: 'Email', link: "mailto:laoluadegoke@icloud.com", icon: () => <SocialIcon network="email" />},
+    {name: 'Medium', link: "https://medium.com/@Laoluadegoke", icon: () => <SocialIcon url="https://medium.com/@Laoluadegoke" />}
 ]
 
 export const projects = [

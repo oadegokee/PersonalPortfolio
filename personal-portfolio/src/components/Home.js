@@ -18,7 +18,7 @@ const Home = () => {
                     </p>
                     <div className="contact-links">
                         {contactLinks.map((links) => (
-                            <a href={links.link}>
+                            <a href={links.link} title={links.name} target="_blank">
                                 {links.icon()}
                             </a>
                         ))}

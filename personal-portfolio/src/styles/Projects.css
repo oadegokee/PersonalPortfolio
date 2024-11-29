@@ -81,13 +81,13 @@
     font-size: 0.9em;
     margin: 0;
     margin-top: 5px;
-    height: 15%;
+    height: 13%;
 }
 
 .project-desc {
     margin-top: 2px;
     font-size: 1em;
-    height: 50%;
+    height: 45%;
 }
 
 .project-links {
@@ -96,7 +96,8 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    margin-top: 0.5em;
+    margin: 0.6rem 0;
+    margin-top: 1.2rem;
 }
 
 .project-link-wrapper {
